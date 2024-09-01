@@ -45,6 +45,13 @@ export default defineConfig({
 					},
 					{
 						type: 'string',
+						required: true,
+						name: 'author',
+						label: 'Author',
+						description: 'Author for thie blog post'
+					},
+					{
+						type: 'string',
 						label: 'description',
 						required: true,
 						name: 'description',
